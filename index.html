@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DFCCO game</title>
+    <link rel="stylesheet" href="dfcco.css" />
+  </head>
+  <body>
+    <div class="first-container">
+      <div class="intro">Choose any but not that one</div>
+      <div>
+        <button class="dfcco" id="destoBtn">Desto</button>
+        <button class="dfcco" id="fingerBtn">Finger</button>
+        <button class="dfcco" id="cowBtn">Cow</button>
+        <button class="dfcco" id="cowterBtn">Cowter</button>
+        <button class="dfcco" id="olyBtn">Oly</button>
+      </div>
+      <div class="play-again js-play-again"></div>
+    </div>
+
+    <div class="second-container hidden">
+      <div class="first-result js-first-result"></div>
+      <div class="choosing-finger">Now choose any finger</div>
+      <div class="finger-choice">
+        <button class="fingers oneFinger">
+          <img class="index-finger" src="img/1-index.png" alt="" />
+        </button>
+        <button class="fingers twoFinger">
+          <img class="index-finger" src="img/2-index.png" alt="" />
+        </button>
+        <button class="fingers threeFinger">
+          <img class="index-finger-three" src="img/3-index.png" alt="" />
+        </button>
+        <button class="fingers fourFinger">
+          <img class="index-finger-four" src="img/4-index.png" alt="" />
+        </button>
+        <button class="fingers fiveFinger">
+          <img class="index-finger" src="img/5-index.png" alt="" />
+        </button>
+      </div>
+
+      <p class="js-second-result"></p>
+      <p class="js-winner"></p>
+      <p class="js-score"></p>
+      <div>
+        <button class="reset-btn js-reset-score">Reset score</button>
+        <button class="choose-again-btn js-choose-again">Choose again</button>
+      </div>
+    </div>
+    <script src="dfcco.js"></script>
+  </body>
+</html>

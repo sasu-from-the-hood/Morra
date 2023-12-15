@@ -1,0 +1,132 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+.fingers {
+  border: none;
+  border-radius: 100px;
+  margin-left: 20px;
+  cursor: pointer;
+  background-color: white;
+}
+.finger-choice {
+  display: flex;
+  align-items: center;
+}
+.index-finger-four {
+  height: 40px;
+  width: 40px;
+  object-fit: contain;
+}
+.index-finger-three {
+  height: 60px;
+  width: 60px;
+  object-fit: contain;
+}
+.index-finger {
+  height: 100px;
+  width: 100px;
+  object-fit: contain;
+}
+.second-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.first-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #333;
+}
+
+.hidden {
+  display: none;
+}
+.dfcco {
+  padding: 20px 20px;
+  margin-left: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  color: white;
+  background-color: black;
+}
+.intro {
+  display: block;
+  color: white;
+  margin-bottom: 50px;
+  font-size: 30px;
+}
+.play-again {
+  color: red;
+  font-size: 18px;
+  margin-top: 50px;
+}
+.choose-again-btn {
+  background-color: blueviolet;
+}
+.reset-btn {
+  background-color: red;
+}
+.choose-again-btn,
+.reset-btn {
+  border: none;
+  color: white;
+  padding: 12px 15px;
+  cursor: pointer;
+}
+.first-result {
+  font-size: 23px;
+  margin-bottom: 30px;
+}
+.choosing-finger {
+  font-size: 18px;
+  margin-bottom: 20px;
+  color: green;
+  font-weight: bold;
+}
+@media (max-width: 560px) {
+  .first-result {
+    font-size: 18px;
+    margin-bottom: 30px;
+  }
+  .intro {
+    display: block;
+    color: white;
+    margin-bottom: 50px;
+    font-size: 20px;
+  }
+  .dfcco {
+    display: flex;
+    align-items: center;
+    padding: 10px 10px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    color: white;
+    background-color: black;
+  }
+  .index-finger-four {
+    height: 30px;
+    width: 30px;
+    object-fit: contain;
+  }
+  .index-finger-three {
+    height: 40px;
+    width: 40px;
+    object-fit: contain;
+  }
+  .index-finger {
+    height: 60px;
+    width: 60px;
+    object-fit: contain;
+  }
+}
